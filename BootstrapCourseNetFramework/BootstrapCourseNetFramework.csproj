@@ -84,6 +84,7 @@
     <Content Include="css\bootstrap.rtl.css" />
     <Content Include="css\bootstrap.rtl.min.css" />
     <Content Include="css\gridPage.css" />
+    <Content Include="formAndControls.aspx" />
     <Content Include="grid.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
@@ -94,6 +95,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formAndControls.aspx.cs">
+      <DependentUpon>formAndControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formAndControls.aspx.designer.cs">
+      <DependentUpon>formAndControls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="grid.aspx.cs">
       <DependentUpon>grid.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
